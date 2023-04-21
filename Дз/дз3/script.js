@@ -11,17 +11,17 @@
 // Пользователь вводит с клавиатуры число, если ввёл текст, необходимо вывести что значение задано неверно
 // Создать фукнцию, которая высчитывает 13% от данного числа и выводит в консоль текст "Размер заработной платы за вычетом налогов равен значение"
 
-// function procentSalary (money) {
-//     if (typeof money === 'string') {
-//         console.log('значение задано неверно');
-//     }
-//     else {
-//         const salary = money * 0.13;
-//         return console.log(`Размер заработной платы за вычетом налогов равен ${salary}`);
-//     }
-// }
+function procentSalary (money) {
+    if (typeof money === 'string') {
+        console.log('значение задано неверно');
+    }
+    else {
+        const salary = money * 0.13;
+        return console.log(`Размер заработной платы за вычетом налогов равен ${salary}`);
+    }
+}
 
-// console.log(procentSalary(100));
+console.log(procentSalary(100));
 
 
 // Задание 3
